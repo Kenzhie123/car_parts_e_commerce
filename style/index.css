@@ -259,8 +259,8 @@ body {
     margin-bottom: 2%;
     padding: 2%;
     color: #f2f2f2;
-    max-height: 20px;
-    text-overflow: ellipsis;
+    max-height: 15px;
+    text-overflow: ellipsis "[..]";
 }
 
 .spec_announcement{
@@ -335,7 +335,7 @@ body {
 
     .spec_product_img{
         width: 100%;
-        height: auto;
+        height: 100px;
         margin-bottom: 0;
     }
 }
