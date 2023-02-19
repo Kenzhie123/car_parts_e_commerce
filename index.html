@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+
+    <script type="text/javascript">
+        function resizeIframe(obj){
+           obj.style.height = 0;
+           obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+      </script>
+</head>
+<body>
+    <div id="navbar">
+        <div class="logo_container">
+            <a id="logo_text" href="index.html">Logo</a>
+        </div>
+        <div id="navbar_elements_container">
+            <a href="" class="anchor">
+                <span class="anchor_text">Products</span>
+                <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <a href="" class="anchor">
+                <span class="anchor_text">Projects</span>
+                <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <a href="" class="anchor">
+                <span class="anchor_text">Goods</span>
+            <a href="" class="anchor">
+                <span class="anchor_text">Company</span>
+                <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <a href="" class="anchor">
+                <span class="anchor_text">Overseas Dealer</span>
+            </a>
+            <a href="" class="anchor">
+                <span class="anchor_text">Q&A</span>
+            </a>
+        </div>
+
+        <div id="cart_container">
+            <button type="button" id="cart_button">
+                <img src="../images/cart.svg">
+            </button>
+        </div>
+
+        
+
+    </div>
+
+
+    <div id="main_content_container">
+        <form id="search_container">
+            <div id="location_container">
+
+                <span class="material-symbols-outlined" style="color:#cacaca;">
+                    home</span>
+                <h1 class="location_link">
+                    Home
+                </h1>
+            </div>
+            <div id="search_textbox_container">
+                <input type="text" id="search_textbox" placeholder="Search"/>
+                <img src="../images/search.svg" id="search_icon">
+            </div>
+            
+        </form>
+        <div id="video_container">
+            <iframe src="https://www.youtube.com/embed/B-Dhi0fosK0?playlist=B-Dhi0fosK0&loop=1&autoplay=1&mute=1&controls=0"
+            
+                id="main_video"
+                title="YouTube video player"
+                pointer-events="none"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" >
+            </iframe>
+        </div>
+       
+    </div>
+
+    <div id="featured_container">
+        <h1 class="header_text">New Products and Models</h1>
+        <div id="featured_items_container">
+            <div id="new_products_container">
+                <div class="spec_product">
+                    <div class="hr"></div>
+                    <h1 class="spec_product_header">TOYOTA</h1>
+                    <img src="../images/cars/car1.jpg" class="spec_product_img">
+                    <h1 class="spec_product_name">GR86(ZN8) ARISING-1</h1>
+                </div>
+                
+            </div>
+            <div id="new_products_container">
+                <div class="spec_product">
+                    <div class="hr"></div>
+                    <h1 class="spec_product_header">SUBARU</h1>
+                    <img src="../images/cars/car2.jpg" class="spec_product_img">
+                    <h1 class="spec_product_name">BRZ ARISING-1</h1>
+                </div>
+                
+            </div>
+            <div id="new_products_container">
+                <div class="spec_product">
+                    <div class="hr"></div>
+                    <h1 class="spec_product_header">MITSUBISHI</h1>
+                    <img src="../images/cars/car3.jpg" class="spec_product_img">
+                    <h1 class="spec_product_name">LANCER EVOLUTION X CZ4A WIDE BOD..</h1>
+                </div>
+                
+            </div>
+            <div id="new_products_container">
+                <div class="spec_product">
+                    <div class="hr"></div>
+                    <h1 class="spec_product_header">NISSAN</h1>
+                    <img src="../images/cars/car4.jpg" class="spec_product_img">
+                    <h1 class="spec_product_name">R35 GT-R 2019Ver.</h1>
+                </div>
+                
+            </div>
+            <div id="new_products_container">
+                <div class="spec_product">
+                    <div class="hr"></div>
+                    <h1 class="spec_product_header">HONDA</h1>
+                    <img src="../images/cars/car5.jpg" class="spec_product_img">
+                    <h1 class="spec_product_name">CIVIC TYPE-R FK8 WIDE BODY</h1>
+                </div>
+                
+            </div>
+            <div id="new_products_container">
+                <div class="spec_product">
+                    <div class="hr"></div>
+                    <h1 class="spec_product_header">Solid Joker</h1>
+                    <img src="../images/cars/car6.jpg" class="spec_product_img">
+                    <h1 class="spec_product_name">Solid Joker：EVO IX Wide Body Kitb </h1>
+                </div>
+                
+            </div>
+            <div id="new_products_container">
+                <div class="spec_product">
+                    <div class="hr"></div>
+                    <h1 class="spec_product_header">VOLKSWAGEN</h1>
+                    <img src="../images/cars/car7.jpg" class="spec_product_img">
+                    <h1 class="spec_product_name">GOLF VII 7.5GTI</h1>
+                </div>
+                
+            </div>
+
+            <div id="new_products_container">
+                <div class="spec_product">
+                    <div class="hr"></div>
+                    <h1 class="spec_product_header">LEXUS</h1>
+                    <img src="../images/cars/car8.jpg" class="spec_product_img">
+                    <h1 class="spec_product_name">LEXUS RC F</h1>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+
+    </div>
+
+    <div id="news_container">
+        <h1 class="sub_header_text">News</h1>
+        <div class="hr_gray" style="margin-top:1%;"></div>
+        <div id="announcement_container">
+            <div class="spec_announcement">
+                <div class="spec_announcement_container">
+                    <img src="/images/news/news1.jpg" class="announcement_image">
+                </div>
+            </div>
+
+            <div class="spec_announcement">
+                <div class="spec_announcement_container">
+                    <img src="/images/news/news2.jpg" class="announcement_image">
+                </div>
+            </div>
+
+            <div class="spec_announcement">
+                <div class="spec_announcement_container">
+                    <img src="/images/news/news3.jpg" class="announcement_image">
+                </div>
+            </div>
+        </div>
+        <h1 class="sub_header_text" style="margin-top: 2%;">Announcements</h1>
+        <div class="hr_gray" style="margin-top:1%;"></div>
+        <div id="announcement_text_container">
+            <div class="spec_announcement_text">
+                <h1 class="spec_announcement_date">2023.1.15</h1>
+                <p class="spec_announcement_description">[VARIS GR86 WIDE BODY] won the Grand Prize in the Tokyo Auto Salon 2023 Custom Car Contest "Tuning Car Category" !</p>
+            </div>
+            <div class="spec_announcement_text">
+                <h1 class="spec_announcement_date">2023.1.14</h1>
+                <p class="spec_announcement_description">TOKYO AUTO SALON breaking news MOVIE has been released.</p>
+            </div>
+
+            <div class="spec_announcement_text">
+                <h1 class="spec_announcement_date">2023.1.14</h1>
+                <p class="spec_announcement_description">The 2023 NEW model has been released.</p>
+            </div>
+
+            <div class="spec_announcement_text">
+                <h1 class="spec_announcement_date">2023.1.13</h1>
+                <p class="spec_announcement_description">We will exhibit at TOKYO AUTO SALON 2023!</p>
+            </div>
+            <div class="spec_announcement_text">
+                <h1 class="spec_announcement_date">2022.10.6</h1>
+                <p class="spec_announcement_description">We will exhibit at W-Option JAMBOREE on 10/9 (Sun) !</p>
+            </div>
+            <div class="spec_announcement_text">
+                <h1 class="spec_announcement_date">2022.7.7</h1>
+                <p class="spec_announcement_description">Summer Festa will be held on July 30th (Sat) and 31st (Sun) !</p>
+            </div>
+            <div class="spec_announcement_text">
+                <h1 class="spec_announcement_date">2022.6.29</h1>
+                <p class="spec_announcement_description">We will exhibit at FUEL FEST !</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
