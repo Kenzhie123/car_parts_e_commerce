@@ -332,6 +332,12 @@ body {
         margin: auto;
         width: 40vw;
     }
+
+    .spec_product_img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
 }
 
 
