@@ -26,13 +26,13 @@ body {
 #main_video{
     pointer-events: none;
     margin-bottom: 10%;
-    height: 120vh;
+    height: calc(100vw/1.77);
     width:100vw;
     margin-top: -5%;
 }
 
 #video_container{
-    height:70vh;
+    height:max-content;
     overflow:hidden;
     box-shadow: 0px 0px 5px 0px black;
     
@@ -114,12 +114,14 @@ body {
 
 #featured_container{
     margin:5%;
+    height: fit-content;
 }
 #featured_items_container{
     margin-top: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-row-gap: 5%;
+    height: fit-content;
 }
 
 #new_products_container{
@@ -127,7 +129,7 @@ body {
 }
 
 #news_container{
-    margin: 5%;
+    margin: 50%;
     margin-left: 6%;
     margin-right: 6%;
     padding: 2%;
