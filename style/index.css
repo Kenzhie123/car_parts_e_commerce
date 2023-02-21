@@ -14,6 +14,7 @@ body {
     grid-template-columns: 1fr 3fr 1fr;
     height: 10vh;
     box-shadow: 0px 0px 2px 2px gray;
+    
 }
 
 #navbar_elements_container{
@@ -321,11 +322,38 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
+    #navbar{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .header_text{
+        font-size: 1.5em;
+    }
+    #navbar_elements_container{
+        display: none;
+    }
     #featured_items_container{
         margin-top: 3%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 5%;
+    }
+
+    #search_container{
+        display:block;
+    }
+
+    #location_container{
+        display: none;
+    }
+
+    .spec_announcement_date{
+        font-size: .8em;
+    }
+    .spec_announcement_description{
+        font-size: .6em;
     }
 
     .spec_product{
@@ -337,6 +365,9 @@ body {
         width: 100%;
         height: 100px;
         margin-bottom: 0;
+    }
+    .sub_header_text{
+        font-size: 1.2em;
     }
 }
 
