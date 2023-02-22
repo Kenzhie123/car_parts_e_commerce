@@ -433,12 +433,13 @@ body {
     }
 
     .spec_announcement_date{
-        font-size: 1.1em;
+        padding-left: 5%;
+        font-size: .9em;
     }
     .spec_announcement_description{
         padding-left: 2%;
         margin: 2%;
-        font-size: .9em;
+        font-size: 1.1em;
     }
 
     .spec_product{
