@@ -340,7 +340,6 @@ body {
     margin: auto;
 }
 .announcement_image:hover{
-    width: 25vw;
     margin: auto;
     opacity: .5;
     cursor: pointer;
@@ -403,6 +402,24 @@ body {
         display:block;
     }
 
+    #search_textbox_container{
+        margin: auto;
+        display: grid;
+        padding-top: 3%;
+        width: 80%;
+        grid-template-columns: 90% 10%;
+    }
+
+    #search_textbox{
+        border-radius: 5px 0px 0px 5px;
+        border:0px;
+        width: 100%;
+        margin: auto;
+        height: 5vh;
+        padding-left: 2%;
+    
+    }
+
     #location_container{
         display: none;
     }
@@ -416,10 +433,12 @@ body {
     }
 
     .spec_announcement_date{
-        font-size: .8em;
+        font-size: 1.1em;
     }
     .spec_announcement_description{
-        font-size: .6em;
+        padding-left: 2%;
+        margin: 2%;
+        font-size: .9em;
     }
 
     .spec_product{
@@ -433,13 +452,16 @@ body {
         margin-bottom: 0;
     }
     .sub_header_text{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
-
 
     .announcement_image{
         width: 100%;
-        margin: auto;
+    }
+
+    .announcement_image:hover{
+        
+        cursor: pointer;
     }
 }
 
