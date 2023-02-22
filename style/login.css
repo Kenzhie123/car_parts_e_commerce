@@ -75,3 +75,34 @@ body{
 .input_field:hover{
     border: rgba(128, 128, 128, 0.63) 1px solid;
 }
+
+@media only screen and (max-width: 600px) {
+
+    #login_container{
+        background-color: white;
+        height: 60vh;
+        width: 80vw;
+        padding-top: 1%;
+        margin: auto;
+        margin-top: 10vh;
+        box-shadow: 0px 0px 10px 0px black;;
+        border-radius: 10px;
+    }
+
+    #login_button{
+        width: max-content;
+        padding: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #1f1f23;
+        color: #cacaca;
+        font-size: .8em;
+        border: none;
+        border-radius: 5px;
+        margin: auto;
+        margin-top: 5%;
+    }
+    
+
+}
