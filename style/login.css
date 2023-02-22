@@ -1,0 +1,77 @@
+body{
+    background-color: #1f1f23;
+}
+
+
+#login_container{
+    background-color: white;
+    height: 60vh;
+    width: 60vh;
+    padding-top: 1%;
+    margin: auto;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 10px 0px black;;
+    border-radius: 10px;
+}
+
+#login_text{
+    text-align: center;
+    color:#1f1f23;
+}
+
+#login_form{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+#logo_container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+#logo_img{
+    width: 40%;
+    height: auto;
+    margin: auto;
+
+}
+
+#login_button{
+    width: max-content;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1f1f23;
+    color: #cacaca;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#login_button:hover{
+    cursor: pointer;
+}
+
+.header_text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    color: #1f1f23;
+}
+
+.input_field{
+    height: 4vh;
+    padding: 2%;
+    padding-left: 3%;
+    margin-top: 5%;
+    border: rgba(128, 128, 128, 0.63) 1px solid;
+    border-radius: 5px;
+}
+
+.input_field:hover{
+    border: rgba(128, 128, 128, 0.63) 1px solid;
+}
