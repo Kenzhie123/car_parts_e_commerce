@@ -5,13 +5,14 @@ body{
 
 #login_container{
     background-color: white;
-    height: 60vh;
+    height: fit-content;
     width: 60vh;
     padding-top: 1%;
     margin: auto;
     margin-top: 10vh;
     box-shadow: 0px 0px 10px 0px black;;
     border-radius: 10px;
+    padding-bottom: 1%;
 }
 
 #login_text{
@@ -23,6 +24,24 @@ body{
     display: flex;
     flex-direction: column;
     margin: 5%;
+}
+
+#login_form>p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#login_form>p>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: .9em;
+    
+}
+
+#login_form>p>a:hover{
+    text-decoration: underline;
+    
 }
 
 #logo_container{
@@ -63,6 +82,7 @@ body{
     color: #1f1f23;
 }
 
+
 .input_field{
     height: 4vh;
     padding: 2%;
@@ -80,15 +100,18 @@ body{
 
     #login_container{
         background-color: white;
-        height: 60vh;
-        max-height: 350px;
+        height: fit-content;
         width: 80vw;
         padding-top: 1%;
         margin: auto;
         margin-top: 10vh;
         box-shadow: 0px 0px 10px 0px black;;
         border-radius: 10px;
+        padding-bottom: 1%;
     }
+
+    
+    
 
     #login_button{
         width: max-content;
@@ -105,5 +128,11 @@ body{
         margin-top: 5%;
     }
     
+
+    .header_text{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.7em;
+        color: #1f1f23;
+    }
 
 }
